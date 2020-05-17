@@ -1,0 +1,78 @@
+.card {
+    /* margin "auto" will center the element by giving equal margin each side */
+    width: 350px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #cc4b37;
+    /* Border radius will curve the borders */
+    border-radius: 20px;
+    background-color: rgb(226, 234, 235);
+    box-shadow: 2px 2px #eee;
+    /* below are the rules imported from Google Fonts */
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgba(255, 103, 68, 0.91);
+    background-image: url(CSS2.jpg);
+}
+
+h3 {
+    padding: 5px 10px;
+    margin:  0 0 15px 0;
+    text-align: center;
+    border: 1px solid #cc4b37;
+    border-radius: 20px;
+    background-color: #293f50;
+    font-size: 1.2rem;
+}
+
+.image-container {
+    width: 350px;
+    height: 350px;
+    margin: 15px 0;
+    border: 1px solid #cc4b37;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    margin: auto;
+    background-color: #293f50;
+    padding: 10px;
+    border: 1px solid #cc4b37;
+    border-radius: 20px;
+    font-size: 1.1em;
+}
+
+#description {
+    font-size: large;
+    font-style: inherit;
+}
+
+#list-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+#list-items span {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.0em;
+}
+
+.quote {
+    margin-bottom: 0;
+}
+
+.indent {
+    margin-top: 0;
+    padding-left: 20px; 
+}
+
+
+
+
+
